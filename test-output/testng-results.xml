@@ -1,70 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-13T23:06:54 EST" name="Failed suite [Failed suite [Failed suite [Practice Suite]]]" finished-at="2023-02-13T23:07:12 EST" duration-ms="17294">
+  <suite started-at="2023-02-14T16:21:35 EST" name="Practice Suite" finished-at="2023-02-14T16:22:07 EST" duration-ms="31440">
     <groups>
     </groups>
-    <test started-at="2023-02-13T23:06:54 EST" name="My HubSpot Website Test Edge(failed)(failed)(failed)" finished-at="2023-02-13T23:07:12 EST" duration-ms="17294">
+    <test started-at="2023-02-14T16:21:35 EST" name="My HubSpot Website Test Chrome" finished-at="2023-02-14T16:22:06 EST" duration-ms="30347">
       <class name="com.myTests.LoginPageTest">
-        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@201a4587]" started-at="2023-02-13T23:06:55 EST" name="setUpTest" finished-at="2023-02-13T23:07:01 EST" duration-ms="6279" status="PASS">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:35 EST" name="setUpTest" finished-at="2023-02-14T16:21:39 EST" duration-ms="3872" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="verifyLoginPageTitletest()[pri:0, instance:com.myTests.LoginPageTest@201a4587]" started-at="2023-02-13T23:07:01 EST" name="verifyLoginPageTitletest" finished-at="2023-02-13T23:07:01 EST" duration-ms="31" status="PASS">
+        <test-method signature="verifyLoginPageTitletest()[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:39 EST" name="verifyLoginPageTitletest" finished-at="2023-02-14T16:21:39 EST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitletest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@201a4587]" started-at="2023-02-13T23:07:01 EST" name="tearDown" finished-at="2023-02-13T23:07:01 EST" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:39 EST" name="tearDown" finished-at="2023-02-14T16:21:40 EST" duration-ms="1146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@201a4587]" started-at="2023-02-13T23:07:01 EST" name="setUpTest" finished-at="2023-02-13T23:07:06 EST" duration-ms="4700" status="PASS">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:40 EST" name="setUpTest" finished-at="2023-02-14T16:21:43 EST" duration-ms="2423" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="verifyLoginPageHeadertest()[pri:1, instance:com.myTests.LoginPageTest@201a4587]" started-at="2023-02-13T23:07:06 EST" name="verifyLoginPageHeadertest" finished-at="2023-02-13T23:07:06 EST" duration-ms="100" status="PASS">
+        <test-method signature="verifyLoginPageHeadertest()[pri:1, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:43 EST" name="verifyLoginPageHeadertest" finished-at="2023-02-14T16:21:43 EST" duration-ms="497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageHeadertest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@201a4587]" started-at="2023-02-13T23:07:06 EST" name="tearDown" finished-at="2023-02-13T23:07:06 EST" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:43 EST" name="tearDown" finished-at="2023-02-14T16:21:44 EST" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@201a4587]" started-at="2023-02-13T23:07:06 EST" name="setUpTest" finished-at="2023-02-13T23:07:11 EST" duration-ms="4550" status="PASS">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:44 EST" name="setUpTest" finished-at="2023-02-14T16:21:46 EST" duration-ms="2139" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="doLoginTest()[pri:2, instance:com.myTests.LoginPageTest@201a4587]" started-at="2023-02-13T23:07:11 EST" name="doLoginTest" finished-at="2023-02-13T23:07:12 EST" duration-ms="683" status="PASS">
+        <test-method signature="doLoginTestUsingDataProvider(java.lang.String,java.lang.String)[pri:2, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:46 EST" name="doLoginTestUsingDataProvider" data-provider="dataprovider_for_doLogin" finished-at="2023-02-14T16:21:52 EST" duration-ms="5531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProviderDemo@Demo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@201a4587]" started-at="2023-02-13T23:07:12 EST" name="tearDown" finished-at="2023-02-13T23:07:12 EST" duration-ms="256" status="PASS">
+        </test-method> <!-- doLoginTestUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:52 EST" name="tearDown" finished-at="2023-02-14T16:21:53 EST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:53 EST" name="setUpTest" finished-at="2023-02-14T16:21:55 EST" duration-ms="2209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="doLoginTestUsingDataProvider(java.lang.String,java.lang.String)[pri:2, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:21:55 EST" name="doLoginTestUsingDataProvider" data-provider="dataprovider_for_doLogin" finished-at="2023-02-14T16:22:01 EST" duration-ms="5588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProviderDemo2@123Demo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTestUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:22:01 EST" name="tearDown" finished-at="2023-02-14T16:22:02 EST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:22:02 EST" name="setUpTest" finished-at="2023-02-14T16:22:05 EST" duration-ms="3098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="doLoginTestUsingPropFile()[pri:2, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:22:05 EST" name="doLoginTestUsingPropFile" finished-at="2023-02-14T16:22:05 EST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTestUsingPropFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@771a660]" started-at="2023-02-14T16:22:05 EST" name="tearDown" finished-at="2023-02-14T16:22:06 EST" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.myTests.LoginPageTest -->
-    </test> <!-- My HubSpot Website Test Edge(failed)(failed)(failed) -->
-  </suite> <!-- Failed suite [Failed suite [Failed suite [Practice Suite]]] -->
+    </test> <!-- My HubSpot Website Test Chrome -->
+    <test started-at="2023-02-14T16:21:35 EST" name="My HubSpot Website Test Edge" finished-at="2023-02-14T16:22:07 EST" duration-ms="31440">
+      <class name="com.myTests.LoginPageTest">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:35 EST" name="setUpTest" finished-at="2023-02-14T16:21:40 EST" duration-ms="4254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyLoginPageTitletest()[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:40 EST" name="verifyLoginPageTitletest" finished-at="2023-02-14T16:21:40 EST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitletest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:40 EST" name="tearDown" finished-at="2023-02-14T16:21:41 EST" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:41 EST" name="setUpTest" finished-at="2023-02-14T16:21:43 EST" duration-ms="2731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyLoginPageHeadertest()[pri:1, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:43 EST" name="verifyLoginPageHeadertest" finished-at="2023-02-14T16:21:44 EST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeadertest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:44 EST" name="tearDown" finished-at="2023-02-14T16:21:45 EST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:45 EST" name="setUpTest" finished-at="2023-02-14T16:21:47 EST" duration-ms="2175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="doLoginTestUsingDataProvider(java.lang.String,java.lang.String)[pri:2, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:47 EST" name="doLoginTestUsingDataProvider" data-provider="dataprovider_for_doLogin" finished-at="2023-02-14T16:21:53 EST" duration-ms="5430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProviderDemo@Demo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTestUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:53 EST" name="tearDown" finished-at="2023-02-14T16:21:54 EST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:54 EST" name="setUpTest" finished-at="2023-02-14T16:21:56 EST" duration-ms="2133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="doLoginTestUsingDataProvider(java.lang.String,java.lang.String)[pri:2, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:21:56 EST" name="doLoginTestUsingDataProvider" data-provider="dataprovider_for_doLogin" finished-at="2023-02-14T16:22:01 EST" duration-ms="5380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProviderDemo2@123Demo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTestUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:22:01 EST" name="tearDown" finished-at="2023-02-14T16:22:02 EST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:22:02 EST" name="setUpTest" finished-at="2023-02-14T16:22:06 EST" duration-ms="3314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="doLoginTestUsingPropFile()[pri:2, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:22:06 EST" name="doLoginTestUsingPropFile" finished-at="2023-02-14T16:22:06 EST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTestUsingPropFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myTests.LoginPageTest@53fb3dab]" started-at="2023-02-14T16:22:06 EST" name="tearDown" finished-at="2023-02-14T16:22:07 EST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myTests.LoginPageTest -->
+    </test> <!-- My HubSpot Website Test Edge -->
+  </suite> <!-- Practice Suite -->
 </testng-results>

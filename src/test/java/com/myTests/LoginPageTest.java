@@ -5,6 +5,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.myPages.LoginPage;
 
+import utils.TakeScreenShot;
+
 public class LoginPageTest extends BaseTest{
 	
 	@Test()
@@ -15,6 +17,7 @@ public class LoginPageTest extends BaseTest{
 	
 	@Test(priority=1)
 	public void verifyLoginPageHeadertest() {
+		TakeScreenShot.TakeScreenShotAs(driver);
 		String logiPageHeader=page.getInstance(LoginPage.class).getLoginPageHeader();
 		Assert.assertEquals(logiPageHeader, "Don't have an account?");
 	}
