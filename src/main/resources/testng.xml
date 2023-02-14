@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" thread-count="2" parallel="tests">
+	<test name="My HubSpot Website Test Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.myTests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="My HubSpot Website Test Edge">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="com.myTests.LoginPageTest" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->
